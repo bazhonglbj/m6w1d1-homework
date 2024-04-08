@@ -48,7 +48,7 @@ exports.inventories = (req, res) => {
 
         res.status(500).json({
             message:  "Error!",
-            error: err
+            error: err.message
         });
     });
 }
