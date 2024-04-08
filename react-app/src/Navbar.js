@@ -3,7 +3,7 @@ import {Navbar, NavbarBrand} from 'reactstrap';
 import {Link} from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
 
-export default class NavBar extends Component {
+export default class AppNavBar extends Component {
     render() {
         return (
             <div>

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import {AppNavbar} from './Navbar';
+import AppNavbar from './Navbar';
 import {Link} from 'react-router-dom';
-import { Button,ButtonGroup, Container,FormGroup,Table } from 'reactstrap';
+import { Button,Container, Form, Label,FormGroup,Input } from 'reactstrap';
 
 class InventoryEdit extends Component {
     emptyInventory = {

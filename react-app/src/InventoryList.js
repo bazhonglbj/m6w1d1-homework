@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {AppNavbar} from './Navbar';
+import AppNavbar from './Navbar';
 import {Link} from 'react-router-dom';
 import { Button,ButtonGroup, Container,Table } from 'reactstrap';
 

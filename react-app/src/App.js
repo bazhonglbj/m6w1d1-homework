@@ -5,7 +5,7 @@ import InventoryEdit from "./InventoryEdit";
 import './App.css';
 import {Router, Routes, Route} from 'react-router-dom';
 
-class App extends Component {
+export default class App extends Component {
     render() {
         return (
             <Router>
